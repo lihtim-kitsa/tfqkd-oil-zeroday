@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/astik/OneDrive/Desktop/ml-attack-detection-tfqkd-oil/mlruns/1/models/m-8800e42082434dacb3983e0493bd5aa0/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-8800e42082434dacb3983e0493bd5aa0
+model_size_bytes: 9605
+model_uuid: m-8800e42082434dacb3983e0493bd5aa0
+prompts: null
+run_id: b4339df29d3f4842a93a913844d6ed7e
+utc_time_created: '2026-09-09 14:02:47.909972'

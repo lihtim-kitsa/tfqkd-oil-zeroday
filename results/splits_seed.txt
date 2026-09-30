@@ -1,0 +1,11 @@
+seed=42
+distance_km=100
+pulses_per_batch=100000
+n_batches_nominal=70
+n_batches_attack=50
+X_train shape: (4900000, 7)
+X_val   shape: (8549997, 7)
+X_test  shape: (8550003, 7)
+Train label counts: {np.int8(0): np.int64(4900000)}
+Val   label counts: {np.int8(0): np.int64(1050000), np.int8(1): np.int64(2499999), np.int8(2): np.int64(2499999), np.int8(3): np.int64(2499999)}
+Test  label counts: {np.int8(0): np.int64(1050000), np.int8(1): np.int64(2500001), np.int8(2): np.int64(2500001), np.int8(3): np.int64(2500001)}

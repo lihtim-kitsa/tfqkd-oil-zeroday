@@ -1,0 +1,17 @@
+numpy
+scipy
+matplotlib
+pytest
+numba
+torch
+pennylane
+scikit-learn
+xgboost
+pyyaml
+shap
+pandas
+optuna
+statsmodels
+pyarrow
+fastparquet
+mlflow

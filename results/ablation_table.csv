@@ -1,0 +1,13 @@
+Model,Attack,AUROC,TPR@4%FPR,Latency (ms/pulse)
+thresh,FIM,0.7388,0.2864,0.0002
+xgboost,FIM,0.9418,0.7652,0.0035
+rf,FIM,0.9444,0.7396,0.0054
+deep_svdd,FIM,0.8154,0.5484,0.0006
+thresh,TWIRL,0.5988,0.134,0.0002
+xgboost,TWIRL,0.4289,0.0832,0.001
+rf,TWIRL,0.5028,0.048,0.0051
+deep_svdd,TWIRL,0.4841,0.14,0.0004
+thresh,Zero-Day,0.8024,0.2535,0.0002
+xgboost,Zero-Day,0.895,0.789,0.001
+rf,Zero-Day,0.9395,0.7784,0.005
+deep_svdd,Zero-Day,0.882,0.6106,0.0004

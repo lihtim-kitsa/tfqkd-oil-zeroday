@@ -1,0 +1,7 @@
+{
+    "train_size": 4801,
+    "val_size": 8450,
+    "test_size": 8451,
+    "window_size": 100000,
+    "features_dim": 10
+}

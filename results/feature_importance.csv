@@ -1,0 +1,11 @@
+feature,mean_abs_shap_xgboost,deep_svdd_auroc_drop_permutation,evaluation
+phase_kurtosis,2.8681247234344482,0.17989220237626868,nominal vs pooled zero-day; seed 1; sampled 1000 rows
+rms_phi,1.212727665901184,0.022543079707293967,nominal vs pooled zero-day; seed 1; sampled 1000 rows
+phase_autocorr,1.1113213300704956,0.048995790384766646,nominal vs pooled zero-day; seed 1; sampled 1000 rows
+intensity_xcorr,0.5710725784301758,-0.004775159335903889,nominal vs pooled zero-day; seed 1; sampled 1000 rows
+var_I_B,0.43144193291664124,-0.006717680383980018,nominal vs pooled zero-day; seed 1; sampled 1000 rows
+transmittance,0.38937389850616455,0.005699700999291735,nominal vs pooled zero-day; seed 1; sampled 1000 rows
+click_rate,0.2520897090435028,0.0015933590369027195,nominal vs pooled zero-day; seed 1; sampled 1000 rows
+click_asymmetry,0.20455679297447205,0.003452277913289614,nominal vs pooled zero-day; seed 1; sampled 1000 rows
+qber,0.1973269134759903,0.0030736092532851478,nominal vs pooled zero-day; seed 1; sampled 1000 rows
+spectral_power_max,0.05048302561044693,0.0026801872688643202,nominal vs pooled zero-day; seed 1; sampled 1000 rows

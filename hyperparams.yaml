@@ -1,0 +1,28 @@
+deep_svdd:
+  batch_size: 128
+  epochs: 100
+  hidden_dims:
+  - 32
+  - 16
+  input_dim: 10
+  lr: 0.001
+  margin: 10.0
+  rep_dim: 8
+qsvm:
+  C: 1.0
+  n_qubits: 10
+random_forest:
+  max_depth: null
+  n_estimators: 100
+statistical_threshold:
+  threshold_std: 3.0
+vqc:
+  batch_size: 32
+  epochs: 10
+  lr: 0.1
+  n_layers: 4
+  n_qubits: 10
+xgboost:
+  learning_rate: 0.1
+  max_depth: 6
+  n_estimators: 100
