@@ -40,8 +40,6 @@ The physical simulation produces pulse-level quantities such as phase, intensity
 | `mlruns/`, `mlflow.db` | MLflow tracking records and artifacts when present. |
 | `hyperparams.yaml`, `splits.json` | Experiment configuration and split metadata used by parts of the project. |
 | `metrics.md` | Metric definitions and evaluation notes. |
-| `PROJECT_OVERVIEW.md` | Longer technical report and project notes. |
-| `manuscript_draft.tex` | Research manuscript draft. |
 | `requirements.txt` | Python package dependencies. |
 
 There are multiple generations of the pipeline in this repository. In particular, `data/*.parquet` is used by scripts such as `scripts/pipeline.py` and `scripts/train_models.py`, while the newer physical-trace workflow uses `.npz` and `.npy` files under `results/` and code in `simulator/dataset.py`. Check the input paths in the script you intend to run; these pipelines are not interchangeable.
@@ -145,10 +143,7 @@ Metrics in different reports may come from different pipeline generations, data 
 
 ## References within the repository
 
-- `PROJECT_OVERVIEW.md` — detailed architecture, methods, and research notes.
 - `metrics.md` — metric definitions and evaluation criteria.
-- `research_strengthening_plan.md` and `tf-qkd-deep-svdd-roadmap.md` — research planning documents.
-- `manuscript_draft.tex` — current manuscript draft; `deep_sad_upgrade.tex` is an earlier proposal.
 - `LICENSE` — MIT License.
 
 ## License
